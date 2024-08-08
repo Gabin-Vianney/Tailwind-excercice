@@ -1,14 +1,7 @@
-function App() {
+import Home from "./views/Home.jsx";
 
-  return (
-    <>
-       <div className="App">
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-    </div>
-    </>
-  )
-}
+const App = () => {
+  return <Home />;
+};
 
-export default App
+export default App;
